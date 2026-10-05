@@ -16,10 +16,9 @@ export default function App() {
           <Text style={styles.logoText}>G</Text>
         </View>
 
-        <Text style={styles.title}>G-Connect</Text>
-
+        <Text style={styles.title}>Get</Text>
         <Text style={styles.subtitle}>
-          Connect. Create. Grow.
+          Your all-in-one platform
         </Text>
 
         <TouchableOpacity style={styles.button}>
@@ -39,8 +38,8 @@ const styles = StyleSheet.create({
 
   content: {
     flex: 1,
-    alignItems: 'center',
     justifyContent: 'center',
+    alignItems: 'center',
     padding: 25,
   },
 
@@ -48,41 +47,40 @@ const styles = StyleSheet.create({
     width: 100,
     height: 100,
     borderRadius: 50,
-    backgroundColor: '#111111',
-    alignItems: 'center',
+    backgroundColor: '#000000',
     justifyContent: 'center',
+    alignItems: 'center',
     marginBottom: 25,
   },
 
   logoText: {
     color: '#ffffff',
-    fontSize: 50,
+    fontSize: 55,
     fontWeight: 'bold',
   },
 
   title: {
-    fontSize: 32,
+    fontSize: 40,
     fontWeight: 'bold',
-    color: '#111111',
-    marginBottom: 8,
+    marginBottom: 10,
   },
 
   subtitle: {
-    fontSize: 16,
+    fontSize: 17,
     color: '#666666',
     marginBottom: 35,
   },
 
   button: {
-    backgroundColor: '#111111',
-    paddingVertical: 15,
-    paddingHorizontal: 50,
+    backgroundColor: '#000000',
+    paddingVertical: 16,
+    paddingHorizontal: 60,
     borderRadius: 30,
   },
 
   buttonText: {
     color: '#ffffff',
-    fontSize: 17,
+    fontSize: 18,
     fontWeight: 'bold',
   },
 });
